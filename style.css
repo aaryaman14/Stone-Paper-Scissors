@@ -1,0 +1,99 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 5mm;
+    margin: 0 auto;
+    border: solid #232323 2mm;
+    font-size: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 250px;
+  }
+
+h2{
+    text-align: center;
+    background-color: bisque;
+    padding: 2mm;
+    margin: 0 auto;
+}
+
+h3{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+#score {
+    text-align: left;
+    font-size: 30px;
+    display: inline-block;
+}
+#Play {
+    font-size: 30px;
+    display: inline-block;
+    text-indent: 190mm;
+}
+#message {
+    background-color: #232323;
+    color: greenyellow;
+    margin: 0 auto;
+    padding: 1mm;
+    text-align: center;
+    font-size: 50px;
+    border: solid blueviolet 2mm;
+}
+
+#inputbox {
+    text-align: right;
+    display: inline-block;
+}
+
+#rb {
+    text-align: right;
+    margin: 0 auto;
+    background-color: #cc0000;
+}
+
+button {
+    text-align: center;
+    background-color: #cc0000;
+    margin: 2mm;
+    border: dashed #232323 1.2mm;
+    border-radius: 15%;
+    color:greenyellow;
+    transition: 0.5s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.row{
+    display: flex;
+    background-color: #cc0000;
+    color: greenyellow;
+    padding: 2.2mm;
+    margin: 0 auto;
+}
+
+.column{
+    flex: 50%;
+}
+
+.winner {
+    color: green;
+}
+
+@media screen and (max-width: 1000px) {
+    #Play {
+      text-indent: 0mm; 
+    }
+  }
